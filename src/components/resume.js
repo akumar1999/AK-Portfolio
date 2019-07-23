@@ -4,6 +4,8 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import Activities from './activities';
+import Projectresume from './projectresume';
+import Achieve from './Medal';
 
 
 class Resume extends Component {
@@ -110,6 +112,15 @@ class Resume extends Component {
                  databases. 
                 Using the knowledge to create my personal website/portfolio."
                 />
+              <Experience
+                startYear={2017}
+                endYear={"Present"}
+                startMonth={'August'}
+                place="Kurukshetra, Haryana"
+                jobName="Confluence (Cultural Fest)"
+                position="PR and EP Team"
+                jobDescription="Connected with other colleges and collaborated with them to organize our cultural fest."
+                />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
@@ -167,8 +178,47 @@ class Resume extends Component {
                (2018-19) - Designing & Management in the Cultural Society-(Music & Dramatics Club),
                Member of the college's Dance Society"
               />
-                  
-          
+
+
+            <hr style={{borderTop: '3px solid #e22947'}} />
+                       
+            <h2>Projects</h2>
+              <Projectresume
+              Ed="PERSONAL PORTFOLIO:"
+              
+              jobDescription="Used React framework (Reactjs), nodejs, yarn, Html5, CSS and UI components 
+              like Material UI to build personal portfolio with the help of open source platform netlify.
+              
+              Link: akumarportfolio.netlify.com"
+              /> 
+
+              <Projectresume
+              Ed="REACT APP 'DAWAKHANA':"
+              
+              jobDescription="Created ReactNative based mobile application which helps users to write in their 
+              symptoms and figure out which medicine to intake. A database is created in order to store all medicines data."
+              />
+
+              <Projectresume
+              Ed="PYTHON CHATBOT:"
+              
+              jobDescription="Python based desktop assistant, helping in performing basic tasks i.e., 
+              sending mails, opening specific folder. Uses GTTS (google text-to-speech) and smtp library of Python.  "
+              />
+
+              <hr style={{borderTop: '3px solid #e22947'}} />
+                       
+                       <h2>Achievements</h2>
+                       <Achieve
+
+                       jobDescription="•	Secured 1st position in Groove Armada, Confluence, NIT Kurukshetra (2017-18)"
+                       jobDescription="•  Secured 1st position in Ho Rev’O, SRM NCR Campus(2018)"
+                       jobDescription="•	Secured 2nd position in NIT Jalandhar group dance competition (2019)"
+                       jobDescription="•	Secured 2nd position in IIT Mandi group dance competition(2019)"
+
+                       />
+
+
           
           
           
