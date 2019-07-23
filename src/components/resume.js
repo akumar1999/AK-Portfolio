@@ -31,7 +31,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>8295208264</p>
             <h5>Email</h5>
-            <p>amitrocker1999@gmail.com</p>
+            <p>akumar1999m@gmail.com</p>
             <h5>Web</h5>
             <p>akportfolio.com</p>
             <h5>LinkedIn</h5>
@@ -102,15 +102,18 @@ class Resume extends Component {
                 endYear={2019}
                 startMonth={'August'}
                 endMonth={'May'}
-                place="New York, NY"
-                jobName="Second Job"
-                position="Web Intern"
-                jobDescription="Used Reactjs, Nodejs, CSS, HTML, Material UI, Material Design, bootstrap and google firebase"
+                place="Jersey City, New Jersey"
+                jobName="Corp2Corp Inc."
+                position="Software Engineer Intern"
+                jobDescription="Built in-depth knowledge in the field of ReactNative, Reactjs, Material UI, and Bootstrap.
+                Acquired working knowledge with google firebase for integration with website and handling 
+                 databases. 
+                Using the knowledge to create my personal website/portfolio."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="JavaS  cript"
+                skill="JavaScript"
                 progress={90}
                 />
               <Skills
