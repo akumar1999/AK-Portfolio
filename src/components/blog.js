@@ -15,7 +15,7 @@
             <div className="blog-grid">
             {/* Blog 1 */}
             <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '300px', opacity:'.9', background: 'url(https://europa.eu/capacity4dev/system/files/images/photo/bangladesh.gif) center / cover'}}>BANGLADESH</CardTitle>
+        <CardTitle style={{color: '#fff', height: '300px', opacity:'.9', background: 'url(https://3.bp.blogspot.com/-qvw7a8HeP2Y/Vtl9i2LJywI/AAAAAAAAPfI/a-Hgxoqq8RQ/s1600/9b369ea8e39cb09775fe3a9b0e5e0872.jpg) center / cover'}}>BANGLADESH</CardTitle>
         <CardText>
             My first international journey begin with neighbouring country of india, Bangladesh....TAP FOR MORE
         </CardText>
