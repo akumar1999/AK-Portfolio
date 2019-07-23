@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Personal Website</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9', background: 'url(https://miro.medium.com/max/3000/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}} >PERSONAL WEBSITE</CardTitle>
             <CardText>
               Used React framework, material UI, nodejs, and yarn with customizing CSS and UI components to create personal portfolio.
               
@@ -28,7 +28,7 @@ class Projects extends Component {
           </Card>
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9'}} >DawaKhana App</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9', background: 'url(https://miro.medium.com/max/1750/1*C3kxjCrJy-aWSMpe2chfaA.png) center / cover'}} >DawaKhana App</CardTitle>
             <CardText>
               mobile app "DawaKhana", used Reactnative, material UI, nodejs, and yarn with customizing CSS and UI components."
               
@@ -41,7 +41,7 @@ class Projects extends Component {
           </Card>
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9'}} >Python Chatbot</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', opacity:'.9', background: 'url(https://cdn.technologyadvice.com/wp-content/uploads/2018/02/friendly-chatbot-700x408.jpg) center / cover'}} >Python Chatbot</CardTitle>
             <CardText>
             Python based desktop assistant, helping in performing basic tasks i.e., sending mails, 
             opening specific folder. Uses GTTS (google text-to-speech) and smtp library of Python. 
